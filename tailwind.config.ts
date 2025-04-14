@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -59,6 +60,7 @@ export default {
           'purple-light': '#B19EFF',
           blue: '#60A5FA',
           'blue-dark': '#3B82F6',
+          green: '#059669',  // Adding the missing vimba-green color
         }
       },
       borderRadius: {
