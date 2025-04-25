@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
@@ -15,8 +14,8 @@ const Navbar = () => {
           {/* Logo and brand name */}
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/27277313-9433-4933-b124-e0abac08f5e4.png" 
-              alt="Vimba Agency" 
+              src="/lovable-uploads/9afa8d92-d755-4a90-9595-d939bd967b15.png" 
+              alt="Vimba" 
               className="h-12 w-auto"
             />
           </Link>

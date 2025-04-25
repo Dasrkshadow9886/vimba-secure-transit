@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Shield, Facebook, Twitter, Instagram, Mail, Phone } from 'lucide-react';
+import { Globe, Facebook, Twitter, Instagram, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -11,11 +11,11 @@ const Footer = () => {
           {/* Brand and About */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Shield className="h-6 w-6 text-vimba-green" />
-              <span className="text-xl font-bold">Vimba Agency</span>
+              <Globe className="h-6 w-6 text-vimba-green" />
+              <span className="text-xl font-bold">Vimba</span>
             </div>
             <p className="text-sm text-gray-300 mt-2">
-              We provide secure payment solutions to stop scammers and protect both buyers and sellers in online transactions.
+              An all-in-one platform designed to streamline workflows, enhance collaboration, and boost productivity.
             </p>
           </div>
 
@@ -69,8 +69,8 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} Vimba Agency. All rights reserved.</p>
-          <p className="text-sm text-gray-400 mt-2 md:mt-0">We Stop Scammers</p>
+          <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} Vimba. All rights reserved.</p>
+          <p className="text-sm text-gray-400 mt-2 md:mt-0">Empowering Teams, Simplifying Work</p>
         </div>
       </div>
     </footer>
